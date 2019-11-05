@@ -17,19 +17,13 @@ fun main() {
     var n= readLine()
      if (n!=null)
           c=n.toDouble()
-    if (a == 0.0 && b == 0.0 && c == 0.0) {
+    if (a == 0.0 && b == c) {
         println("Phương trình vô số nghiệm")
     }
-    if (a == 0.0 && b != 0.0 && c == 0.0) {
+    if (a == 0.0 && b != c) {
         println("Phưong trình vô nghiệm")
     }
-    if (a!=0.0 && c == 0.0) {
-        var x=-b/a
-        println("Phương trình $a x+ $b =0 có nghiệm x="+x)
-
-    }
-    if(a!=0.0 && c!=0.0) {
-        var x=(c-b)/a
-        println("Phưong trình $a x + $b = $c có nghiệm x= "+x)
+    if(a!=0.0) {
+        println("Phưong trình $a x + $b = $c có nghiệm x=${(c-b)/a} ")
     }
 }
