@@ -12,6 +12,6 @@ fun main(){
     var c=readLine()
     if (c!= null) sideC=c.toDouble()
   if ( (sideA + sideB)>sideC && (sideB+sideC)>sideA && (sideC+sideA)>sideB)
-      println("Các độ dài đoạn thẳng đã nhập là của một tam giác có diện tích là:")
+      println("Các độ dài đoạn thẳng đã nhập là của một tam giác có diện tích là:") // em vẫn chưa biết cách tính diện tích tam giác như nào//
   else println ("Ba độ dài đã nhập không tạo thành tam giác")
 }
