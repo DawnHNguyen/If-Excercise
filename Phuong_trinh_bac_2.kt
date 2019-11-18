@@ -41,11 +41,11 @@ fun main (){
        bacnhat()
    if (a!=0.0){
         var D = (b*b - 4*a*(c-d))
-    if (D < 0 ){
-        println("Phương trình vô nghiệm")}
-    else if (D == 0.0){
-        println ("Phương trình có nghiệm duy nhất x = ${-b/(2*a)}")}
-    else if (D > 0){
+    if (D < 0 )
+        println("Phương trình vô nghiệm")
+    if (D == 0.0)
+        println ("Phương trình có nghiệm duy nhất x = ${-b/(2*a)}")
+    if (D > 0){
         var M= Math.sqrt(D)
         println ("Phương trình có 2 nghiệm x1= ${(-b - M)/(2*a)} và x2= ${(-b + M)/(2*a)}")}
     }
